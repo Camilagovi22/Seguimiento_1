@@ -1,0 +1,10 @@
+# Punto 2: DESCARGA DE ARCHIVOS DE TRABAJO
+
+# Para descargar el archivo del organismo Vicugna pacos, utilice el comando wget:
+
+wget ftp://ftp.ensembl.org/pub/current_gff3/vicugna_pacos/Vicugna_pacos.vicPac1.114.gff3.gz
+
+# Para descomprimir el archivo .gz y obtener el  archivo .gff3 , utilice el comando: 
+
+gunzip Vicugna_pacos.vicPac1.114.gff3.gz
+
