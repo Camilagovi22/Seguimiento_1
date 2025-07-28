@@ -47,8 +47,8 @@ R//: Los archivos GFF3 se usan para guardar información sobre diferentes partes
    
 ## Punto n°2: DESCARGA DE ARCHIVOS DE TRABAJO vaya a http://ftp.ensembl.org/pub/current_gff3/ para descargar el archivo GFF del organismo asignado.
 
-### a. La descarga del archivo GFF debe ser mediante l??nea de comandos. Incluir el comando.
-### c. Descomprima el archivo usando la l??nea de comandos. Incluir el comando
+### a. La descarga del archivo GFF debe ser mediante línea de comandos. Incluir el comando.
+### c. Descomprima el archivo usando la línea de comandos. Incluir el comando
 
 R//: El organismo que me correspondio fue el "Vicugna pacos". El archivo m??s general Vicugna_pacos.vicPac1.114.gff3.gz fue el que descargue. 
 Use wget para descargar  el archivo y gunzip para descomprimirlo.
