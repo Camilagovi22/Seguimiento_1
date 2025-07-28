@@ -3,9 +3,7 @@ Seguimiento 1 de Bioinformática 2025-2 – Vicugna pacos.
 
 ## Punto n°1: Describe los campos que se encuentran en este tipo de archivos. ¿Qué información está allí? ¿Contenido? Proporcional ejemplos.
 
-R//: Los archivos GFF3 se usan para guardar información sobre diferentes partes del ADN, como genes, exones y otras regiones.  
-Cada línea del archivo describe algo distinto del genoma y está dividida en 9 columnas, que están separadas por tabulaciones.  
-Cada columna tiene un tipo de dato que sirve para identificar o clasificar esa información.
+R//: Los archivos GFF3 se usan para guardar información sobre diferentes partes del ADN, como genes, exones y otras regiones.Cada línea del archivo describe algo distinto del genoma y está dividida en 9 columnas, que están separadas por tabulaciones.Cada columna tiene un tipo de dato que sirve para identificar o clasificar esa información.
 
 1.**Columna 1 – seqid**  
    Dice en qué secuencia del genoma está lo que se está describiendo.  
@@ -47,8 +45,7 @@ Cada columna tiene un tipo de dato que sirve para identificar o clasificar esa i
    Tiene información adicional como el ID o el nombre del gen. Está escrita como clave=valor, separada por punto y coma.  
    *Ejemplo:* `ID=gene00001;Name=BRCA1`
    
-## Punto n°2: DESCARGA DE ARCHIVOS DE TRABAJO
-## Vaya a http://ftp.ensembl.org/pub/current_gff3/ para descargar el archivo GFF del organismo asignado.
+## Punto n°2: DESCARGA DE ARCHIVOS DE TRABAJO vaya a http://ftp.ensembl.org/pub/current_gff3/ para descargar el archivo GFF del organismo asignado.
 
 ### a. La descarga del archivo GFF debe ser mediante l??nea de comandos. Incluir el comando.
 ### c. Descomprima el archivo usando la l??nea de comandos. Incluir el comando
