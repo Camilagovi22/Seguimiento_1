@@ -1,13 +1,13 @@
 # Seguimiento_1
-Seguimiento 1 de Bioinformática 2025-2 – Análisis GFF3 de Vicugna pacos.
+Seguimiento 1 de Bioinformática 2025-2 – Vicugna pacos.
 
-## Punto n°1:  Punto 1: Describe los campos que se encuentran en este tipo de archivos. ¿Qué información está allí? ¿Contenido? Proporcional ejemplos.
+## Punto n°1: Describe los campos que se encuentran en este tipo de archivos. ¿Qué información está allí? ¿Contenido? Proporcional ejemplos.
 
 R//: Los archivos GFF3 se usan para guardar información sobre diferentes partes del ADN, como genes, exones y otras regiones.  
 Cada línea del archivo describe algo distinto del genoma y está dividida en 9 columnas, que están separadas por tabulaciones.  
 Cada columna tiene un tipo de dato que sirve para identificar o clasificar esa información.
 
-1. **Columna 1 – seqid**  
+1.**Columna 1 – seqid**  
    Dice en qué secuencia del genoma está lo que se está describiendo.  
    Puede ser un cromosoma o una secuencia ensamblada.  
    *Ejemplo:* `ctg123`
@@ -17,33 +17,33 @@ Cada columna tiene un tipo de dato que sirve para identificar o clasificar esa i
    Esto ayuda a saber si viene de un lugar confiable.  
    *Ejemplo:* `GenBank`
 
-3. **Columna 3 – type**  
+3.**Columna 3 – type**  
    Muestra qué tipo de cosa se está describiendo: puede ser un gen, un exón o una región codificante.  
    *Ejemplo:* `gene`, `exon`, `CDS`
 
-4. **Columna 4 – start**  
+4.**Columna 4 – start**  
    Indica desde qué posición comienza esa parte del ADN. Se empieza a contar desde 1.  
    *Ejemplo:* `1000`
 
-5. **Columna 5 – end**  
+5.**Columna 5 – end**  
    Muestra en qué posición termina.  
    *Ejemplo:* `9000`  
    
    Con las columnas 4 y 5 se puede saber la longitud del fragmento.
 
-6. **Columna 6 – score**  
+6.**Columna 6 – score**  
    Es un número que indica qué tan confiable o fuerte es el dato. Si no hay valor, se pone un punto (`.`).  
    *Ejemplo:* `0.95` o `.`
 
-7. **Columna 7 – strand**  
+7.**Columna 7 – strand**  
    Dice en qué hebra está: `+` para la directa y `-` para la complementaria.  
    *Ejemplo:* `+`
    
-8. **Columna 8 – phase**  
+8.**Columna 8 – phase**  
    Solo se usa si el tipo es `CDS`. Indica si el codón empieza en la primera, segunda o tercera base.  
    *Ejemplo:* `0`
 
-9. **Columna 9 – attributes**  
+9.**Columna 9 – attributes**  
    Tiene información adicional como el ID o el nombre del gen. Está escrita como clave=valor, separada por punto y coma.  
    *Ejemplo:* `ID=gene00001;Name=BRCA1`
    
@@ -53,12 +53,12 @@ Cada columna tiene un tipo de dato que sirve para identificar o clasificar esa i
 ### a. La descarga del archivo GFF debe ser mediante l??nea de comandos. Incluir el comando.
 ### c. Descomprima el archivo usando la l??nea de comandos. Incluir el comando
 
-R//: El organismo que me correspondio fue el "Vicugna pacos". El archivo m??s general `Vicugna_pacos.vicPac1.114.gff3.gz` fue el que descargue. 
-Use `wget para descargar`  el archivo y `gunzip` para descomprimirlo.
+R//: El organismo que me correspondio fue el "Vicugna pacos". El archivo m??s general Vicugna_pacos.vicPac1.114.gff3.gz fue el que descargue. 
+Use wget para descargar  el archivo y gunzip para descomprimirlo.
 
-## Punto n°3:. AN??LISIS DEL ARCHIVO
+## Punto n°3:. ANÁLISIS DEL ARCHIVO
 
-### a. Proporcione una breve descripci??n del organismo asignado en el archivo README.
+### a. Proporcione una breve descripción del organismo asignado en el archivo README.
 
 R//: Vicugna pacos es el nombre científico de la alpaca. Es un mamífero domesticado que se cría por su lana, especialmente en los Andes de Perú, Bolivia, Chile y el norte de Argentina. Pertenece a la misma familia que las llamas y las vicuñas, y está adaptada a vivir en zonas de gran altitud.
 
