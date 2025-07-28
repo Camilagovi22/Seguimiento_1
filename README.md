@@ -3,7 +3,7 @@ Seguimiento 1 de Bioinformática 2025-2 – Vicugna pacos.
 
 ## Punto n°1: Describe los campos que se encuentran en este tipo de archivos. ¿Qué información está allí? ¿Contenido? Proporcional ejemplos.
 
-R//: Los archivos GFF3 se usan para guardar información sobre diferentes partes del ADN, como genes, exones y otras regiones.Cada línea del archivo describe algo distinto del genoma y está dividida en 9 columnas, que están separadas por tabulaciones.Cada columna tiene un tipo de dato que sirve para identificar o clasificar esa información.
+R//: Los archivos GFF3 se usan para guardar información sobre diferentes partes del ADN, como genes, exones y otras regiones. Cada línea del archivo describe algo distinto del genoma y está dividida en 9 columnas, que están separadas por tabulaciones. Cada columna tiene un tipo de dato que sirve para identificar o clasificar esa información.
 
 1.**Columna 1 – seqid**  
    Dice en qué secuencia del genoma está lo que se está describiendo.  
@@ -59,9 +59,9 @@ Use wget para descargar  el archivo y gunzip para descomprimirlo.
 
 R//: Vicugna pacos es el nombre científico de la alpaca. Es un mamífero domesticado que se cría por su lana, especialmente en los Andes de Perú, Bolivia, Chile y el norte de Argentina. Pertenece a la misma familia que las llamas y las vicuñas, y está adaptada a vivir en zonas de gran altitud.
 
-### b. Investigue, usando las herramientas de la l??nea de comandos de Unix, y conteste las siguientes preguntas:
+### b. Investigue, usando las herramientas de la línea de comandos de Unix, y conteste las siguientes preguntas:
 
-## i. ¿Cuantos features contiene el archivo?
+### i. ¿Cuantos features contiene el archivo?
 
 R//: El archivo contiene 704184 features.  
 
@@ -69,7 +69,7 @@ R//: El archivo contiene 704184 features.
 
 R//: El archivo contiene 290927 regiones de la secuencia.
 
-## iii.¿Cuántos genes están listados en el organismo?
+### iii.¿Cuántos genes están listados en el organismo?
 
 R //: El archivo contiene 11765 genes listados.
 
